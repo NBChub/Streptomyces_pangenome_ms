@@ -1,0 +1,38 @@
+name: r_notebook
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base>=4.2
+  - jupyterlab>3
+  - ipywidgets>=7.6
+  - nbconvert
+  - pandas
+  - r-irkernel
+  - r-tidyverse
+  - bioconductor-ggtree
+  - bioconductor-ggtreeextra
+  - r-plotly
+  - r-ggstar
+  - r-repr
+  - r-irdisplay
+  - r-pbdzmq
+  - r-devtools
+  - r-phytools
+  - pandoc
+  - rpy2
+  - jupyter_contrib_nbextensions
+  - r-svglite
+  - svgutils
+  - clustalo
+  - iqtree
+  - seqkit
+  - trimal
+  - r-ggalt
+  - bioconductor-iranges
+  - pip
+  - pip:
+    - networkx
+    - biopython
+    - pyarrow

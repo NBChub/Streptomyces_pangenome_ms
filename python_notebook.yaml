@@ -1,0 +1,37 @@
+name: python_notebook
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>=3.9,<3.10
+  - jupyterlab>3
+  - ipywidgets>=7.6
+  - jupyter-dash
+  - jupyter_contrib_nbextensions
+  - jupyter_highlight_selected_word
+  - seaborn
+  - pandas
+  - plotly
+  - python-kaleido
+  - openpyxl
+  - nbconvert
+  - ipykernel
+  - pyarrow
+  - xlrd >= 1.0.0
+  - zip
+  - altair
+  - itables
+  - scikit-learn
+  - pygraphviz
+  - cairosvg
+  - svgutils
+  - pip
+  - venn
+  - pip:
+      - biopython
+      - jupyterlab-dash
+      - networkx
+      - alive_progress
+      - python-louvain
+      - vl-convert-python
